@@ -1,0 +1,37 @@
+{
+  "name": "Awesome",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2",
+    "eslint-plugin-flowtype": "^2.4.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "react-scripts": "0.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-mongostore": "^0.1.4",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "path": "^0.12.7",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-router": "^2.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
